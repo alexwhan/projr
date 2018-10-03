@@ -1,0 +1,16 @@
+Package: projr
+Type: Package
+Title: Records And Recreates Project Directories With Git Repositories
+Version: 0.0.1
+Author: Alex Whan
+Maintainer: Alex Whan <alexwhan@gmail.com>
+Description: Makes a record for each project directory, and can recreate them.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports:
+    yaml,
+    git2r,
+    purrr
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.1.0
